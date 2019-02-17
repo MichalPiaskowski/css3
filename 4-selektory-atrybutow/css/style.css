@@ -1,0 +1,27 @@
+[title] {
+    color: red;
+}
+/* Pełna nazwa atrybuty */
+[title="About me"] {
+    color: orange;
+}
+
+/* zawiera słowo */
+[title~="Container"] {
+    color: green;
+}
+
+/* zawiera ciąg znaków */
+[title*="tainer"] {
+    color: purple;
+}
+
+/* zaczyna się od ciągu znaków */
+[title^="Mor"] {
+    color: violet;
+}
+
+/* kończy się ciągiem znaków */
+[title$="skills"] {
+    color: cadetblue;
+}
