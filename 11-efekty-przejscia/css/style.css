@@ -1,0 +1,33 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: aquamarine;
+    margin: 20px auto;
+}
+
+#colors {
+    background-color: yellow;
+}
+
+#colors:hover {
+    background-color: deeppink;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+
+.box-width:hover {
+    width: 300px;
+    transition: width 0.8s linear;
+}
+
+.box-height:hover {
+    height: 300px;
+    transition: height 0.8s linear;
+}
+
+.box-width-height:hover {
+    width: 300px;
+    height: 300px;
+    transition: 0.8s linear;
+}
